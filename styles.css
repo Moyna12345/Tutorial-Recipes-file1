@@ -12,7 +12,7 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: #000000;
 }
 
 html, body {
@@ -32,7 +32,7 @@ html, body {
 .nav a {
     display: inline-block;
     padding: .5em;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 
 .main-nav li {
@@ -48,11 +48,11 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: rgba(255, 255, 255, 0.3)
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(243, 0, 0, 0.6);
     background-image: url("Images/Header Background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -65,7 +65,7 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: white;
+    color: rgb(253, 251, 251);
 }
 
 .band-name-large {
@@ -84,7 +84,7 @@ html, body {
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: #333;
+    color: #020203;
     text-align: center;
     font-size: 2.5em;
 }
@@ -98,8 +98,8 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
-    color: white;
+    background-color: #0400ff;
+    color: rgb(255, 255, 255);
     padding: .25em 0;
 }
 
@@ -132,7 +132,7 @@ html, body {
 .btn-header {
     margin: .5em 15% 2em 15%;
     color: white;
-    border: 2px solid #2D9CDB;
+    border: 2px solid #177ab4;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0;
     font-size: 1.5em;
@@ -158,8 +158,8 @@ html, body {
 }
 
 .btn-primary {
-    color: white;
-    background-color: #56CCF2;
+    color: rgb(248, 248, 248);
+    background-color: #a7b6bb;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -170,22 +170,22 @@ html, body {
 }
 
 .tour-row {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(221, 210, 210);
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
 
 .tour-row:last-child {
-    border: none;
+    border-bottom: none;
 }
 
 .tour-item {
     display: inline-block;
-    padding-right: .5em;
+    padding-right: .5em;    
 }
 
 .tour-date {
-    color: #555;
+    color: #000000;
     width: 11%;
     font-weight: bold;
 }
@@ -200,4 +200,15 @@ html, body {
 
 .tour-btn {
     max-width: 19%;
+}
+
+.btn-primary{
+    color: #ffffff;
+    background-color: #006af5;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #2D9CDB;
 }
